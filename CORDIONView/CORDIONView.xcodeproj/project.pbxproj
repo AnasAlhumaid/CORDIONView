@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D865F80C2CDB844400B15AF0 /* CORDIONViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865F80B2CDB844400B15AF0 /* CORDIONViewApp.swift */; };
+		D865F80E2CDB844400B15AF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865F80D2CDB844400B15AF0 /* ContentView.swift */; };
+		D865F8102CDB844800B15AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D865F80F2CDB844800B15AF0 /* Assets.xcassets */; };
+		D865F8142CDB844800B15AF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D865F8132CDB844800B15AF0 /* Preview Assets.xcassets */; };
+		D865F81E2CDB844800B15AF0 /* CORDIONViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865F81D2CDB844800B15AF0 /* CORDIONViewTests.swift */; };
+		D865F8282CDB844800B15AF0 /* CORDIONViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865F8272CDB844800B15AF0 /* CORDIONViewUITests.swift */; };
+		D865F82A2CDB844800B15AF0 /* CORDIONViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865F8292CDB844800B15AF0 /* CORDIONViewUITestsLaunchTests.swift */; };
+		D865F8372CDB848D00B15AF0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865F8362CDB848D00B15AF0 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D865F81A2CDB844800B15AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D865F8002CDB844400B15AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D865F8072CDB844400B15AF0;
+			remoteInfo = CORDIONView;
+		};
+		D865F8242CDB844800B15AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D865F8002CDB844400B15AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D865F8072CDB844400B15AF0;
+			remoteInfo = CORDIONView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D865F8082CDB844400B15AF0 /* CORDIONView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CORDIONView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D865F80B2CDB844400B15AF0 /* CORDIONViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CORDIONViewApp.swift; sourceTree = "<group>"; };
+		D865F80D2CDB844400B15AF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D865F80F2CDB844800B15AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D865F8112CDB844800B15AF0 /* CORDIONView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CORDIONView.entitlements; sourceTree = "<group>"; };
+		D865F8132CDB844800B15AF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D865F8192CDB844800B15AF0 /* CORDIONViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CORDIONViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D865F81D2CDB844800B15AF0 /* CORDIONViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CORDIONViewTests.swift; sourceTree = "<group>"; };
+		D865F8232CDB844800B15AF0 /* CORDIONViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CORDIONViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D865F8272CDB844800B15AF0 /* CORDIONViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CORDIONViewUITests.swift; sourceTree = "<group>"; };
+		D865F8292CDB844800B15AF0 /* CORDIONViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CORDIONViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D865F8362CDB848D00B15AF0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D865F8052CDB844400B15AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D865F8162CDB844800B15AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D865F8202CDB844800B15AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D865F7FF2CDB844400B15AF0 = {
+			isa = PBXGroup;
+			children = (
+				D865F80A2CDB844400B15AF0 /* CORDIONView */,
+				D865F81C2CDB844800B15AF0 /* CORDIONViewTests */,
+				D865F8262CDB844800B15AF0 /* CORDIONViewUITests */,
+				D865F8092CDB844400B15AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D865F8092CDB844400B15AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D865F8082CDB844400B15AF0 /* CORDIONView.app */,
+				D865F8192CDB844800B15AF0 /* CORDIONViewTests.xctest */,
+				D865F8232CDB844800B15AF0 /* CORDIONViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D865F80A2CDB844400B15AF0 /* CORDIONView */ = {
+			isa = PBXGroup;
+			children = (
+				D865F80B2CDB844400B15AF0 /* CORDIONViewApp.swift */,
+				D865F80D2CDB844400B15AF0 /* ContentView.swift */,
+				D865F80F2CDB844800B15AF0 /* Assets.xcassets */,
+				D865F8112CDB844800B15AF0 /* CORDIONView.entitlements */,
+				D865F8122CDB844800B15AF0 /* Preview Content */,
+				D865F8362CDB848D00B15AF0 /* Home.swift */,
+			);
+			path = CORDIONView;
+			sourceTree = "<group>";
+		};
+		D865F8122CDB844800B15AF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D865F8132CDB844800B15AF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D865F81C2CDB844800B15AF0 /* CORDIONViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D865F81D2CDB844800B15AF0 /* CORDIONViewTests.swift */,
+			);
+			path = CORDIONViewTests;
+			sourceTree = "<group>";
+		};
+		D865F8262CDB844800B15AF0 /* CORDIONViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D865F8272CDB844800B15AF0 /* CORDIONViewUITests.swift */,
+				D865F8292CDB844800B15AF0 /* CORDIONViewUITestsLaunchTests.swift */,
+			);
+			path = CORDIONViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D865F8072CDB844400B15AF0 /* CORDIONView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D865F82D2CDB844800B15AF0 /* Build configuration list for PBXNativeTarget "CORDIONView" */;
+			buildPhases = (
+				D865F8042CDB844400B15AF0 /* Sources */,
+				D865F8052CDB844400B15AF0 /* Frameworks */,
+				D865F8062CDB844400B15AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CORDIONView;
+			productName = CORDIONView;
+			productReference = D865F8082CDB844400B15AF0 /* CORDIONView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D865F8182CDB844800B15AF0 /* CORDIONViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D865F8302CDB844800B15AF0 /* Build configuration list for PBXNativeTarget "CORDIONViewTests" */;
+			buildPhases = (
+				D865F8152CDB844800B15AF0 /* Sources */,
+				D865F8162CDB844800B15AF0 /* Frameworks */,
+				D865F8172CDB844800B15AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D865F81B2CDB844800B15AF0 /* PBXTargetDependency */,
+			);
+			name = CORDIONViewTests;
+			productName = CORDIONViewTests;
+			productReference = D865F8192CDB844800B15AF0 /* CORDIONViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D865F8222CDB844800B15AF0 /* CORDIONViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D865F8332CDB844800B15AF0 /* Build configuration list for PBXNativeTarget "CORDIONViewUITests" */;
+			buildPhases = (
+				D865F81F2CDB844800B15AF0 /* Sources */,
+				D865F8202CDB844800B15AF0 /* Frameworks */,
+				D865F8212CDB844800B15AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D865F8252CDB844800B15AF0 /* PBXTargetDependency */,
+			);
+			name = CORDIONViewUITests;
+			productName = CORDIONViewUITests;
+			productReference = D865F8232CDB844800B15AF0 /* CORDIONViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D865F8002CDB844400B15AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D865F8072CDB844400B15AF0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D865F8182CDB844800B15AF0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D865F8072CDB844400B15AF0;
+					};
+					D865F8222CDB844800B15AF0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D865F8072CDB844400B15AF0;
+					};
+				};
+			};
+			buildConfigurationList = D865F8032CDB844400B15AF0 /* Build configuration list for PBXProject "CORDIONView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D865F7FF2CDB844400B15AF0;
+			productRefGroup = D865F8092CDB844400B15AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D865F8072CDB844400B15AF0 /* CORDIONView */,
+				D865F8182CDB844800B15AF0 /* CORDIONViewTests */,
+				D865F8222CDB844800B15AF0 /* CORDIONViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D865F8062CDB844400B15AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D865F8142CDB844800B15AF0 /* Preview Assets.xcassets in Resources */,
+				D865F8102CDB844800B15AF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D865F8172CDB844800B15AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D865F8212CDB844800B15AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D865F8042CDB844400B15AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D865F80E2CDB844400B15AF0 /* ContentView.swift in Sources */,
+				D865F8372CDB848D00B15AF0 /* Home.swift in Sources */,
+				D865F80C2CDB844400B15AF0 /* CORDIONViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D865F8152CDB844800B15AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D865F81E2CDB844800B15AF0 /* CORDIONViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D865F81F2CDB844800B15AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D865F82A2CDB844800B15AF0 /* CORDIONViewUITestsLaunchTests.swift in Sources */,
+				D865F8282CDB844800B15AF0 /* CORDIONViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D865F81B2CDB844800B15AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D865F8072CDB844400B15AF0 /* CORDIONView */;
+			targetProxy = D865F81A2CDB844800B15AF0 /* PBXContainerItemProxy */;
+		};
+		D865F8252CDB844800B15AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D865F8072CDB844400B15AF0 /* CORDIONView */;
+			targetProxy = D865F8242CDB844800B15AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D865F82B2CDB844800B15AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D865F82C2CDB844800B15AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D865F82E2CDB844800B15AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CORDIONView/CORDIONView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CORDIONView/Preview Content\"";
+				DEVELOPMENT_TEAM = NQUCPJVZ5U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasAlhumaid.CORDIONView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D865F82F2CDB844800B15AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CORDIONView/CORDIONView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CORDIONView/Preview Content\"";
+				DEVELOPMENT_TEAM = NQUCPJVZ5U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasAlhumaid.CORDIONView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D865F8312CDB844800B15AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQUCPJVZ5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasAlhumaid.CORDIONViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CORDIONView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CORDIONView";
+			};
+			name = Debug;
+		};
+		D865F8322CDB844800B15AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQUCPJVZ5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasAlhumaid.CORDIONViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CORDIONView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CORDIONView";
+			};
+			name = Release;
+		};
+		D865F8342CDB844800B15AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQUCPJVZ5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasAlhumaid.CORDIONViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CORDIONView;
+			};
+			name = Debug;
+		};
+		D865F8352CDB844800B15AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQUCPJVZ5U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasAlhumaid.CORDIONViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CORDIONView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D865F8032CDB844400B15AF0 /* Build configuration list for PBXProject "CORDIONView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F82B2CDB844800B15AF0 /* Debug */,
+				D865F82C2CDB844800B15AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D865F82D2CDB844800B15AF0 /* Build configuration list for PBXNativeTarget "CORDIONView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F82E2CDB844800B15AF0 /* Debug */,
+				D865F82F2CDB844800B15AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D865F8302CDB844800B15AF0 /* Build configuration list for PBXNativeTarget "CORDIONViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F8312CDB844800B15AF0 /* Debug */,
+				D865F8322CDB844800B15AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D865F8332CDB844800B15AF0 /* Build configuration list for PBXNativeTarget "CORDIONViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F8342CDB844800B15AF0 /* Debug */,
+				D865F8352CDB844800B15AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D865F8002CDB844400B15AF0 /* Project object */;
+}
